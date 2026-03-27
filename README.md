@@ -1,18 +1,18 @@
-RETO SEMANA 01 - CALCULADORA
+# RETO SEMANA 01 - CALCULADORA
 
--Pasos para ejecutar el programa:
+## -Pasos para ejecutar el programa:
 Desde un Archivo
-# Windows (PowerShell)
+## Windows (PowerShell)
 Get-Content entrada.txt | python main.py
-# Windows (CMD)
+## Windows (CMD)
 type entrada.txt | python main.py
-# Linux/Mac
+## Linux/Mac
 python main.py < entrada.txt
-# o
+## ó también
 cat entrada.txt | python main.py
 
--Ejemplo para probar el programa:
-Entrada (archivo entrada.txt):
+## -Ejemplo para probar el programa:
+-Entrada (archivo entrada.txt):
 1,2,3
 10
 
@@ -20,7 +20,8 @@ Entrada (archivo entrada.txt):
 1a2,3b,4
 -5,10,3
   5 , 10 , 15  
-Salida esperada:
+
+-Salida esperada:
 6
 10
 0
